@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.administrator.bignightout.NightClubOneComment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Tab header with navigation (needed on all 3 pages) -->
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:context="com.example.Administrator.menu.NightclubMenu"
+            android:columnCount="3"
+            android:rowCount="1"
+            android:useDefaultMargins="true"
+            android:layout_marginLeft="0dp"
+            android:background="#3f51b5"
+            >
+
+            <Button
+                android:id="@+id/aboutbtn"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="About"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:onClick="AboutRedirect"
+                android:height="80dp"
+                android:width="125dp"
+                android:background="#3f51b5"
+                android:textColor="#FFF"
+                android:textSize="18dp"
+                android:drawableBottom="@drawable/info"
+                />
+
+            <Button
+                android:id="@+id/mapbtn"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Maps"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:onClick="MapsRedirect"
+                android:height="80dp"
+                android:width="125dp"
+                android:background="#3f51b5"
+                android:textColor="#FFF"
+                android:textSize="18dp"
+                android:drawableBottom="@drawable/map"
+                android:layout_marginLeft="0dp"
+                />
+
+            <Button
+                android:id="@+id/commentbtn"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Comment"
+                android:layout_row="0"
+                android:layout_gravity="center_vertical"
+                android:layout_column="2"
+                android:onClick="CommentsRedirect"
+                android:height="80dp"
+                android:width="105dp"
+                android:background="#3f51b5"
+                android:textColor="#FFF"
+                android:textSize="18dp"
+                android:drawableBottom="@drawable/comment"
+                android:layout_marginLeft="0dp"
+                />
+
+        </GridLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+        </Space>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comments Page"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:background="#000000"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+        </Space>
+
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="wrap_content"
+            android:layout_height="350dp">
+
+        </ListView>
+
+        <Button
+            android:id="@+id/leavecommentbtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Leave a comment"
+            android:height="70dp"
+            android:background="#000"
+            android:textColor="#FFF"
+            android:onClick="commentClick"
+
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

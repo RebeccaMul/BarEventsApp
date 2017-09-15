@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.bignightout">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-feature android:name="android.hardware.camera"    android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COURSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name"/>
+        <activity
+            android:name=".Register"
+            android:label="@string/app_name"/>
+        <!-- Menus: -->
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".BarsMenu"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".NightclubMenu"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".CocktailsMenu"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".CraftBeerMenu"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".EventsMenu"
+            android:label="@string/app_name" />
+        <!--Bars-->
+        <activity
+            android:name=".BarOne"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".BarOneMaps"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".BarOneComment"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".BarOneLeaveComment"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".BarTwo"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".BarTwoMaps"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".BarTwoComment"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".BarTwoLeaveComment"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".BarThree"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".BarThreeMaps"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".BarThreeComment"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".BarThreeLeaveComment"
+            android:label="@string/app_name" >
+        </activity>
+        <!--Events-->
+        <activity
+            android:name=".SeasonalEventOne"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".SeasonalEventOneMaps"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".SeasonalEventOneComment"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".SeasonalEventOneLeaveComment"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".SeasonalEventTwo"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".SeasonalEventTwoMaps"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".SeasonalEventTwoComment"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".SeasonalEventTwoLeaveComment"
+            android:label="@string/app_name" />
+        <!--Craft Beers-->
+        <activity
+            android:name=".CraftOne"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".CraftOneComment"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".CraftOneMaps"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".CraftOneLeaveComment"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".CraftTwo"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".CraftTwoComment"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".CraftTwoMaps"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".CraftTwoLeaveComment"
+            android:label="@string/app_name" />
+        <!--Nightclubs-->
+        <activity
+        android:name=".NightClubOne"
+        android:label="@string/app_name" />
+        <activity
+            android:name=".NightClubOneMaps"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".NightClubOneComment"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".NightClubOneLeaveComment"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".NightClubTwo"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".NightClubTwoMaps"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".NightClubTwoComment"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".NightClubTwoLeaveComment"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".CocktailOne"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".CocktailOneMaps"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".CocktailOneComment"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".CocktailOneLeaveComment"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".CocktailTwo"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".CocktailTwoMaps"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".CocktailTwoComment"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".CocktailTwoLeaveComment"
+            android:label="@string/app_name" >
+        </activity>
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyADTEPr583BQozugb6AHDatw-tlO5vSgy4" />
+
+        <uses-feature
+            android:name="@string/step_detector"
+            android:required="false" />
+        <uses-feature
+            android:name="@string/step_counter"
+            android:required="false" />
+
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

@@ -1,0 +1,76 @@
+<resources>
+    <string name="Title">Big Night Out</string>
+    <string name="Title1">Big</string>
+    <string name="Title2">Night</string>
+    <string name="Title3">Out</string>
+    <string name="commentHint">Type here...</string>
+
+    <string name="app_name">Big Night Out</string>
+    <string name="menu1">Bars</string>
+    <string name="menu2">Cocktails</string>
+    <string name="menu3">Nightclubs</string>
+    <string name="menu4">Craft Beer</string>
+    <string name="menu5">Seasonal Events</string>
+
+    <string name="barmenu1">Laverys</string>
+    <string name="barmenu2">Limelight</string>
+    <string name="barmenu3">Cuckoo</string>
+    <string name="barmenu4">The Bot</string>
+    <string name="barmenu5">Duke of York</string>
+
+    <string name="bar1name">Laverys</string>
+    <string name="bar1desc">Perfect for relaxing afternoons and lively night, Laverys provides a traditional taste of a Belfast Pub.
+        Laverys has long been a favoured drinks emporium for more seasoned individuals, a place to meet, eat, drink, converse and have almighty craic with the punters and staff.
+    </string>
+    <string name="bar2name">Limelight</string>
+    <string name="bar2desc">Limelight 1 is the newest addition to The Limelight complex, a brand new purpose build live / club venue.
+        The Limelight 2 first opened in 1984, and has hosted a veritable "whos who" of live acts,
+        Our rooftop terrace, The Rock Garden is open everyday until late and is also open as part our weekly clubnights and live shows.
+    </string>
+    <string name="bar3name">Cuckoo</string>
+    <string name="bar3desc">Stop making sense, We are a non conformist, alternative bar..... purveyors of craft beer, ales and ping pong.
+        The musics not bad either.... Come join us down at Cuckoo!
+    </string>
+
+    <string name="event1name">Christmas Markets</string>
+    <string name="event1desc">In the market will be offered a variety of tasty foods and drinks. There is a massive section of the market dedicated to Christmas gifts. For those
+        who want particular objects there will be chalets that will offer a unique piece of art and local handicrafts offering the chance to make a memorable gift.
+    </string>
+    <string name="event2name">Culture Night</string>
+    <string name="event2desc">Culture Night is an annual all-island public event that celebrates culture, creativity and the arts.
+        Special and unique events and workshops are specifically programmed at participating locations and everything is available free of charge.
+    </string>
+
+    <string name="brewbot">An excellent craft beer bar situated on the outskirts of Belfast on the Ormeau Road.</string>
+    <string name="hudson">An award winning bar that served great food and drink. Situated in the titanic quarter in Belfast the Hudson provides a great space to chill out whilst listening to some top music. Also can tailor for events.</string>
+
+    <string name="nightclub1name">The Fly</string>
+    <string name="nightclub1desc">  A modern smooth stylish nightclub bringing a new dimension to clubbing in belfast open Monday to Sunday night from 9pm til late.</string>
+    <string name="nightclub2name">Ollies</string>
+    <string name="nightclub2desc">Ollies is Belfasts most sophisticated nightclub nestled in the heart of the cathedral quarter, it is located in the basement of the Merchant hotel.</string>
+
+    <string name="cocktail1name">Filthys</string>
+    <string name="cocktail1desc">The mix match furniture of Filthy McNastys, the quirky décor consisting of mannequins doubling as tall lamps and vintage vinyls adorning the walls create a unique charm which makes all
+    walks of life feel welcome. Food is served in the form of an authentic Italian Pizza. Music from Belfast’s local musicians can be heard daily from 10pm.
+    </string>
+
+    <string name="cocktail2name">The Merchant</string>
+    <string name="cocktail2desc"> Rare spirits, vintage Champagnes, and a cocktail list of encyclopedic proportions, all await your delectation in our Cocktail Bar. We also offer a simple yet elegant food menu daily.
+    The Cocktail Bar offers a menu featuring everything from the classic club sandwich to freshly baked pastries, making it the perfection location for a light meal, day or night.
+    </string>
+
+
+
+    <string name="step_counter">
+         android.hardware.sensor.stepcounter
+   </string>
+    <string name="step_detector">
+         android.hardware.sensor.stepdetector
+   </string>
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+
+</resources>
+
+
